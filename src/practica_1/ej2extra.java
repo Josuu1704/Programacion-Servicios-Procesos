@@ -12,9 +12,9 @@ public class ej2extra {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String cadena = sc.nextLine();
-        ProcessBuilder processBuilder = new ProcessBuilder("java", "practica_1.Ejercicio2", cadena);
+        ProcessBuilder processBuilder = new ProcessBuilder("java", "practica_1.ej2", cadena);
         Process process = null;
-        File file = new File("./out/production/RepasoJava");
+        File file = new File("./out/production/ServiciosProcesos");
         processBuilder.directory(file);
 
         try {

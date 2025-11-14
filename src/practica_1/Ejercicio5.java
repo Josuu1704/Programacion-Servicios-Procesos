@@ -4,7 +4,7 @@ import java.io.*;
 public class Ejercicio5 {
     public static void main(String[] args) {
         File file = new File("ejercicio5.txt");
-        File ficheroCodigo = new File("./out/production/RepasoJava");
+        File ficheroCodigo = new File("./out/production/ServiciosProcesos");
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
             String linea = bufferedReader.readLine();
